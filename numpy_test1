@@ -1,6 +1,20 @@
 import numpy as np
-array= np.array([[1,2,3],[2,3,4]
-                 ])
-print(array)
+# array= np.array([[1,2,3],[2,3,4]],dtype=np.int32)
+# # print array
+# # print('number of dim:',array.ndim)
+# # print('shape:',array.shape)
+# # print('size:',array.size)
+# # print(array.dtype)
+# a=np.arange(12).reshape(3,4)
+# print(a)
 # array1= [1 ,2,3]
 # print(array1)
+
+# a=np.random.random((2,4))
+# print(a)
+# print(np.sum(a))
+A = np.arange(14,2,-1).reshape((3,4))
+# print(np.sort(A))
+# print(A[1][1])
+for row in A:
+    print(row)

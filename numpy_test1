@@ -1,4 +1,7 @@
 import numpy as np
+
+
+
 # array= np.array([[1,2,3],[2,3,4]],dtype=np.int32)
 # # print array
 # # print('number of dim:',array.ndim)
@@ -13,8 +16,8 @@ import numpy as np
 # a=np.random.random((2,4))
 # print(a)
 # print(np.sum(a))
-A = np.arange(14,2,-1).reshape((3,4))
-# print(np.sort(A))
-# print(A[1][1])
-for row in A:
-    print(row)
+# A = np.arange(14,2,-1).reshape((3,4))
+# # print(np.sort(A))
+# # print(A[1][1])
+# for row in A:
+#     print(row)

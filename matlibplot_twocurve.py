@@ -9,7 +9,6 @@ train_acys = [3,4,5,5,6]
 test_acys  = [1,2,3,4,8]
 # x_axix，train_pn_dis这些都是长度相同的list()
 
-# 开始画图
 # sub_axix = filter(lambda x: x % 200 == 0, x_axix)
 # plt.title('Result Analysis')
 plt.plot(x_axix, train_acys, color='green', label='training accuracy')

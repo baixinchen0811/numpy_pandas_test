@@ -20,6 +20,7 @@ def kmp_match(s, p):
     return False
 
 
+
 # 部分匹配表
 def partial_table(p):
     '''partial_table("ABCDABD") -> [0, 0, 0, 0, 1, 2, 0]'''
